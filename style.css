@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+    font: 1.3rem / 1.61538 "Montserrat", sans-serif;
+}
+
+#hero{
+    background-image: url('images/img-decor-01.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height:100vh;
+    margin:100px 0 0 0;
+    padding:0;
+}
+.header{
+    display: flex;
+    background-color: #ffffff; 
+    margin:0;
+    position: fixed;
+    top:0;  
+    padding: 31px 0 32px;
+    width:100%;
+    z-index: 1;
+}
+.top-navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding:0 15px;
+    margin:0 47.33px;
+}
+
+.nav-links-main-div{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: #645d74;
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+.logo-img{
+    width:141px;
+    height:41.63px;
+}
+
+.nav-btn{
+    color: #fff;
+    background-color: #8d81ac;
+    border: none;
+    border-radius: 40px;
+    padding: 10px 30px;
+    font-size: 16px;
+    font-weight: bolder;
+    margin: 2px 0 0 59px;
+}
+
+.hero-content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    
+}
+
+.hero-heading{
+    font-size: 80px;
+    line-height: 1.12;
+    font-weight: bold;
+    color: #e3dfed;
+    margin: 50px 0 10px 0;
+}   
+
+.hero-text{
+    text-align: center;
+    color: #8d81ac;
+    line-height: 1.1;
+    font-size: 1.6rem;
+    margin: 0;
+}
+.download-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.download-btn{
+    height: 62px;
+    font-size: 25px;
+    line-height: 26px;
+    font-weight: bold;
+    padding: 17px 67px;
+    color: #fff;
+    background-color: #8d81ac;
+    border-radius: 40px;
+    border: none;
+    position: absolute;
+    bottom: -130px;
+}
+
+
