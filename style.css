@@ -82,10 +82,18 @@ body{
     text-align: center;
     color: #8d81ac;
     line-height: 1.1;
-    font-size: 1.6rem;
+    font-size: 26px;
     margin: 0;
 }
-.download-div{
+
+.subtitle{
+    font-size: 16px;
+    line-height: 1.5;
+    color: #494654;
+    text-transform: uppercase;
+    margin-top:5px;
+}
+    .download-div{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -104,5 +112,49 @@ body{
     position: absolute;
     bottom: -130px;
 }
+
+.editor-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 55px 0 0 0;
+}
+
+.info-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    color: #635c73;
+}
+
+.info-heading{
+    margin: 0 0 20px;
+    font-size: 55px;
+    line-height: 1.148;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.info-text{
+    margin: 0 140px 20px 140px;
+    text-align: center;
+}
+#work{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    grid-gap: 20px;
+}
+
+.work-content{
+    display:grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+}
+
 
 
