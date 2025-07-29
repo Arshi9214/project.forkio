@@ -12,6 +12,8 @@ body{
     margin:100px 0 0 0;
     padding:0;
 }
+
+/* top navbar section */
 .header{
     display: flex;
     background-color: #ffffff; 
@@ -60,6 +62,7 @@ body{
     margin: 2px 0 0 59px;
 }
 
+/* Fork App Title  */
 .hero-content{
     display: flex;
     justify-content: center;
@@ -93,7 +96,8 @@ body{
     text-transform: uppercase;
     margin-top:5px;
 }
-    .download-div{
+
+.download-div{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -113,6 +117,7 @@ body{
     bottom: -130px;
 }
 
+/* Revolutionary Editor */
 .editor-info{
     display: flex;
     justify-content: center;
@@ -143,18 +148,214 @@ body{
     margin: 0 140px 20px 140px;
     text-align: center;
 }
-#work{
+
+/* Work Section*/
+#info{
+    background-color: #f4f4f4;
+}
+.ihead{
+    text-align: center;
+    font-size: 40px;
+    color: #8d81ac;
+    padding-top: 50px;
+
+}
+.info-grid{
     display: grid;
     grid-template-columns: auto auto;
-    grid-template-rows: auto auto;
-    grid-gap: 20px;
+    gap: 70px;
+    padding: 50px 12% 100px 12%;
+}
+.icard{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 50px;
+}
+.text-holder h3{
+    margin-bottom: 10px;
+}
+.text-holder p{
+    color: #848E97;
+    font-size: 13px;
 }
 
-.work-content{
-    display:grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto;
+.img-holder{
+    align-self: center;
 }
+
+/* testimonails section */
+#testimonials{
+    color: #fff;
+    background-image: url("images/img-decor-02.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding: 100px;
+}
+.thead{
+    font-size: 48px;
+    margin-bottom: 70px;
+    text-align: center;
+    color: #e2deed;
+}
+
+.tcontainer-grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 90px 50px;
+    align-items: center;
+}
+.tcard{
+    text-align: center;
+    width: 100%;
+}
+.tcard p{
+    font-size: 16px;
+    font-style: italic;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+
+/* price section*/
+#pricing{
+    color: #fff;
+    background-image: url("images/img-decor-03.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding: 75px;
+}
+.phead{
+    font-size: 24px;
+    text-transform: uppercase;
+    padding: 20px;
+    background-color: #ffffff0d;
+    
+}
+.pcontainer{
+    display: flex;
+    text-align: center;
+    gap: 0px 5px;
+    justify-content: center;
+    margin-bottom: 50px;
+}   
+.pcard{
+    background-color: #ffffff15;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+
+}
+.pline{
+    width: 60px;
+    height: 5px;
+    background-color: #8D81AC;
+    margin: 30px 0px;
+}
+
+.tagline{
+    font-size: 18px;
+    padding: 30px;
+    margin: 0;
+}
+
+.pcontent{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.price{
+    font-size: 64px;
+    color: #ffffff2e;
+    margin: 20px 0 10px 0;
+}
+.price span{
+    color: #fff;
+    font-weight: bold;
+}
+.per{
+    color: #ffffff40;
+}
+.purchase{
+    background-color: #ffffff26;
+    color: #fff;
+    border-radius: 50px;
+    padding: 10px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 35px;
+}
+.text{
+    font-size: 14px;
+    color: #746074;
+    text-align: center;
+    padding: 0 120px 5px;
+}
+
+/* subscribe section */
+#subscribe{
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #f4f4f4;
+    align-items: center;
+}
+.email-input{
+    background-color: #fff;
+    border-radius: 50px;
+    padding: 10px 25px;
+    border: none;
+    margin-right: 40px;
+    width: 300px;
+    font-weight: bold;
+}
+.sub-tagline{
+    color: #635C73;
+    font-size: 30px;
+}
+
+
+/* footer section */
+.fcontainer{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-items: center;
+    padding: 92px 65px;
+    line-height: 22px;
+    grid-column-gap: 30px;
+
+}
+.f-link{
+    text-decoration: none;
+    font-weight: bold;
+    color: #8d81ac;
+    font-size: 15px;
+}
+.f-list{
+    list-style-type: none;
+    margin-top: 0;
+    padding: 0;
+}
+.fcontent{
+    color: #848E97;
+    font-size: 14px;
+    margin:0px;
+    padding-right: 0px;
+
+}
+
+.fcontainer h4{
+    color: #635C73;
+    padding-bottom: 20px;
+    margin:0;
+    padding-bottom: 10px;
+}
+
 
 
 
