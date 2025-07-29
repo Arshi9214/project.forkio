@@ -150,23 +150,23 @@ body{
 }
 
 /* Work Section*/
-#info{
+#work{
     background-color: #f4f4f4;
 }
-.ihead{
+.whead{
     text-align: center;
     font-size: 40px;
     color: #8d81ac;
     padding-top: 50px;
 
 }
-.info-grid{
+.work-grid{
     display: grid;
     grid-template-columns: auto auto;
     gap: 70px;
     padding: 50px 12% 100px 12%;
 }
-.icard{
+.wcard{
     display: grid;
     grid-template-columns: auto auto;
     gap: 50px;
@@ -357,6 +357,23 @@ body{
     padding-bottom: 10px;
 }
 
+/* extra effects */
+button:hover {
+    background-color: #000000;
+    border: 3px solid #8d81ac;
+}
 
+.purchase:hover {
+    background-color: #380873;
+    color: #fff;
+    border: 3px solid #ffffff;
+}
+
+.pcard:hover {
+    background-color: #53337a;
+    color: #fff;
+    border: 3px solid #000000;
+    width: 50%;
+}
 
 
