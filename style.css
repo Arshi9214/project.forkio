@@ -173,9 +173,10 @@ body{
 }
 .text-holder h3{
     margin-bottom: 10px;
+    color: #635c73;
 }
 .text-holder p{
-    color: #848E97;
+    color: #848e97;
     font-size: 13px;
 }
 
